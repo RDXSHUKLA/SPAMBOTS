@@ -174,7 +174,7 @@ async def mraid(e):
             counter = int(xraid[1])
             username = f"[{first_name}](tg://user?id={uid})"
             for _ in range(counter):
-                reply = choice(MRAID)
+                reply = choice(LOVERAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
                 await asyncio.sleep(0.1)
