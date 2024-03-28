@@ -1,5 +1,5 @@
 from telethon import events, Button
-from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10
+from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 from SHUKLASPAM.modules.help import *
 import telethon
 
@@ -17,17 +17,17 @@ PythonButton = [
         ]
 
 
-@MK1.on(events.NewMessage(pattern="/start"))
-@MK2.on(events.NewMessage(pattern="/start"))
-@MK3.on(events.NewMessage(pattern="/start"))
-@MK4.on(events.NewMessage(pattern="/start"))
-@MK5.on(events.NewMessage(pattern="/start"))
-@MK6.on(events.NewMessage(pattern="/start"))
-@MK7.on(events.NewMessage(pattern="/start"))
-@MK7.on(events.NewMessage(pattern="/start"))
-@MK8.on(events.NewMessage(pattern="/start"))
-@MK9.on(events.NewMessage(pattern="/start"))
-@MK10.on(events.NewMessage(pattern="/start"))
+@X1.on(events.NewMessage(pattern="/start"))
+@X2.on(events.NewMessage(pattern="/start"))
+@X3.on(events.NewMessage(pattern="/start"))
+@X4.on(events.NewMessage(pattern="/start"))
+@X5.on(events.NewMessage(pattern="/start"))
+@X6.on(events.NewMessage(pattern="/start"))
+@X7.on(events.NewMessage(pattern="/start"))
+@X7.on(events.NewMessage(pattern="/start"))
+@X8.on(events.NewMessage(pattern="/start"))
+@X9.on(events.NewMessage(pattern="/start"))
+@X10.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
         AltBot = await event.client.get_me()
