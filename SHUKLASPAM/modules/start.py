@@ -31,9 +31,9 @@ START_BUTTON = [
 @X10.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
-        ShuklaBot = await event.client.get_me()
-        bot_name = ShuklaBot.first_name
-        bot_id = ShuklaBot.id
+        AltBot = await event.client.get_me()
+        bot_name = AltBot.first_name
+        bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛](https://t.me/SHIVANSH39)**\n\n"
         TEXT += f"» **sᴛʀᴀɴɢᴇʀʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
