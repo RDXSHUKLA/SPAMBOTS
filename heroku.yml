@@ -1,0 +1,5 @@
+build:
+  docker:
+    Shukla: Dockerfile
+run:
+  Shukla: python3 -m main.py
