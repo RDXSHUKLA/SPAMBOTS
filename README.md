@@ -51,4 +51,4 @@
 
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
-<a href="https://t.me/mastiwithfriendsx"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/MASTIWITHFRIENDSXD"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
