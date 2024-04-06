@@ -33,7 +33,7 @@ async def raid(e):
             uid = entity.id
 
         try:
-            if uid in SHASHANK:
+            if uid in OXYGEN:
                 await e.reply("REPO OWNER HAI YE.")
             elif uid == OWNER_ID:
                 await e.reply("BETA BAAP PE RAID NHI KRTE HAI...")
