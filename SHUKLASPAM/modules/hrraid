@@ -9,7 +9,6 @@ from SHUKLASPAM.data import HRAID, SHASHANK
 
 HREPLY_RAID = []
 
-
 @X1.on(events.NewMessage(incoming=True))
 @X2.on(events.NewMessage(incoming=True))
 @X3.on(events.NewMessage(incoming=True))
