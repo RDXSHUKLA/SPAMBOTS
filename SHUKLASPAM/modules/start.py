@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/mastiwithfriendsxd")
     ],
     [
-        Button.url("𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛", "https://t.me/SHIVANSH39"),
+        Button.url("𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛", "https://t.me/SHIVANSHDEVS"),
         Button.url("𝗥𝗘𝗣𝗢", "https://github.com/itzshukla/STRANGER-SPAM-X/fork")
     ],
     [
