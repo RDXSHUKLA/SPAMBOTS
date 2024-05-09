@@ -3,7 +3,7 @@ import asyncio
 from random import choice
 from telethon import events
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from SHUKLASPAM.data import ABUSE
+from SHUKLASPAM.data import ABUSE, SHASHANK
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
@@ -16,7 +16,7 @@ from SHUKLASPAM.data import ABUSE
 @X9.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
 async def abuse(e):
-    if e.sender_id in SUDO_USERS:
+     if e.sender_id in SUDO_USERS:
         xraid = e.text.split(" ", 2)
 
         if len(xraid) == 3:
