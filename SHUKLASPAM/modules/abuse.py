@@ -16,7 +16,7 @@ from SHUKLASPAM.data import ABUSE
 @X9.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
 async def abuse(e):
-      if e.sender_id in SUDO_USERS:
+    if e.sender_id in SUDO_USERS:
         xraid = e.text.split(" ", 2)
 
         if len(xraid) == 3:
